@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "State_Machine",
+	"Description": "A simple replicated state machine using gameplay tags",
+	"Category": "Other",
+	"CreatedBy": "Gaillard Maxime",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "State_Machine",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
