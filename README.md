@@ -1,7 +1,8 @@
 # UE5 Simple State Machine
 
 This plugin is a simple implementation of a State Machine using Gameplay Tags as States.
-The State Machine is an Actor Component, that way, it can be used on any Actor, no matter what it's used for.
+
+The State Machine is a Actor Component, that way, it can be used on any Actor, no matter what it's used for. And it can be used with any GameplayTags
 
 ## Installation
 
