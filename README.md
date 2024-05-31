@@ -6,7 +6,7 @@ The State Machine is a Actor Component, that way, it can be used on any Actor, n
 
 ## Installation
 
-Just download the release, open it and drop the folder `State_Machine` into the `Plugins` folder of your project. If the `Plugins` folder doesn't exist in your project, then create it.
+Just download the release, open it and drop the `State_Machine` folder into the `Plugins` folder of your project. If the `Plugins` folder doesn't exist in your project, then create it.
 
 ## How to use it (Blueprint)
 
