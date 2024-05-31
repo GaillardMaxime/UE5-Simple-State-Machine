@@ -2,11 +2,11 @@
 
 This plugin is a simple implementation of a State Machine using Gameplay Tags as States.
 
-The State Machine is a Actor Component, that way, it can be used on any Actor, no matter what it's used for. And it can be used with any GameplayTags
+The State Machine is a Actor Component, that way, it can be used on any Actor, no matter what it's used for. And it can be used with any GameplayTags.
 
 ## Installation
 
-Just download the repo and drop the plugin into the `Plugins` folder of your project
+Just download the release, open it and drop the folder `State_Machine` into the `Plugins` folder of your project. If the `Plugins` folder doesn't exist in your project, then create it.
 
 ## How to use it (Blueprint)
 
