@@ -16,7 +16,7 @@ class STATE_MACHINE_API UStateMachineComponent : public UActorComponent
 {
 	GENERATED_BODY()
 	
-protected:
+public:
 	/// The initial state of the state machine. 
 	UPROPERTY(EditAnywhere, Category = "State Machine")
 	FGameplayTag InitialState;
@@ -38,9 +38,7 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "State Machine", meta = (EditCondition="bUseDebug", EditConditionHides))
 	int8 DebugKey;
 
-	
-
-public:	
+public:
 	/// Sets default values for this component's properties
 	UStateMachineComponent();
 	
@@ -69,21 +67,6 @@ public:
 	/// @param NewState The new state for the state machine
 	UFUNCTION(BlueprintCallable, Category = "State Machine")
 	void SwitchState(FGameplayTag NewState);
-
-	/// Return the initial state of the state machine
-	/// @return The initial state property
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "State Machine")
-	FORCEINLINE FGameplayTag GetInitialState() const { return InitialState; }
-
-	/// Return the current state of the state machine
-	/// @return The current state property
-	UFUNCTION(BlueprintCallable, Category = "State Machine")
-	FORCEINLINE FGameplayTag GetCurrentState() const { return CurrentState; }
-
-	/// Return the array of accepted state
-	/// @return The accepted state property
-	UFUNCTION(BlueprintCallable, Category = "State Machine")
-	FORCEINLINE TArray<FGameplayTag> GetAcceptedStates() const { return AcceptedStates; }
 	
 private:
 	/// Function used for passing the changing state to the server for replication. Called by SwitchState function.
